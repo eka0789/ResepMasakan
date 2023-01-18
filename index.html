@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- Copy & Paste the tags below -->
+    <!-- Set the character encoding to "utf-8" -->
+    <meta charset="utf-8">
+    <!-- Tetapkan viewport menggunakan tag <meta> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Set the title to "Progate" -->
+    <title>Food Court</title>
+    
+    <!-- Link "stylesheet.css" to index.html -->
+    <link rel="stylesheet" href="css/stylesheet.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+  </head>
+  <body>
+    <!-- INI START BAGIAN HEADER, MAIN, DAN ARTIKEL PERTAMA-->
+    <div class="welcome-page">
+      <div class="header">
+        <div class="header-container">
+          <nav>
+          
+          <ul>
+            <li class="items"><a href="#">Home</a></li>
+            <li class="items"><a href="#AboutUs">About Us</a></li>
+            <li class="items"><a href="#Profil">Profil</a></li>
+            <li class="items"><a href="http://resepmasakannusantara.fun/">Blog</a></li>
+            <li class="items"><a href="#Menu">Menu</a></li>
+            <li class="items"><a href="#Reservation">Reservation</a></li>
+            <li class="items"><a href="#Tim">Team</a></li>
+            <li class="items"><a href="#Contact">Contacts</a></li>
+            <li class="btn"><a href="#"><i class="fas fa-bars"></i></a></li>
+          </ul>
+          </nav>
+<script>
+      $(document).ready(function(){
+        $('.btn').click(function(){
+          $('.items').toggleClass("show");
+          $('ul li').toggleClass("hide");
+        });
+      });
+    </script>
+        </div>
+      </div>
+      <div class="landing-page">
+        <div class="landing-page-container">
+          <h1>CHOOSE BEST FOOD</h1>
+          <p>“I get way to much happiness from good food.” <br> ~Elizabeth Olsen~</p>
+          <a id="book-a-table"href="#">Book a table</a>
+        </div>
+      </div>
+    </div>
+    <div class="main-article">
+      <div class="main-article-container">
+        <div class="main-article-right">
+          <img id="dish-img" src="img/rendang.png" alt="">
+        </div>
+        <div class="main-article-left">
+          <h1>Discover</h1>
+          <p>Rendang is an Indonesian spicy meat dish originating from the Minangkabau region in West Sumatra, Indonesia.
+            Rendang is a piece of meat most commonly beef that has been slow cooked and braised in a coconut milk and spice mixture,
+            well until the liquids evaporate and the meat turns dark brown and tender, becoming caramelized and infused with rich spices.
+          </p>
+          <div class="person" id="Profil">
+            <img src="img/foto eka.jpg" alt="">
+            <div class="person-profile">
+              <p><hr></p>
+              <p><Strong><center><h3>Profil</h3></center></Strong></p>
+              <p><hr></p>
+              <p id="person-name">Eka Prasetyo</p>
+              <p>CEO Food Court</p>
+              <p>" I am the owner of a simple restaurant that serves a variety of archipelago dishes derived from special spices from my own country. "</p>
+            </div>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+    <!-- INI END BAGIAN HEADER, MAIN, DAN ARTIKEL PERTAMA-->
+    <section id="reservation-section">
+      <div class="container" id="Reservation">
+        <h2><br>Make a Reservation</h2><br>
+     <div>        
+       <form>
+         <input type="date" placeholder="Date" required>
+         <input type="time" placeholder="Time" required>
+         <input type="email" placeholder="Person" required>
+         <button class="submit" >Find Table</button> 
+       </form>   
+     </div>
+    </section>
+ 
+ <!-- Menu -->
+  <div class="menu-rs" id = "Menu">
+    <div class="menu-nav-wrapper">
+        <div class="menu-nav-container">
+          <ul>
+            <li><a href="#">Breakfast</a></li>
+            <li><a href="#">Lunch</a></li>
+            <li><a href="#">Dinner</a></li>
+          </ul>
+        </div>
+    </div>
+    <div class="menu-item-wrapper">
+      <div class="menu-item-container">
+        <div class="menu-item-heading">
+          <h2>Choose your favorite food</h2>
+        </div>
+        <div class="item">
+          <img src="img/padang1.jpg" alt="#" width="600" height="400">
+          <div class="desc"><p>Padang 1<br>Description text</p></div>
+          <div class="dropdown-content">
+            <img src="img/padang1.jpg" alt="#" width="800" height="500">
+            <div class="desc"><p>Title</p> <br> <p>Description and details</p></div>
+          </div>
+        </div>
+        <div class="item">
+          <img src="img/padang2.jpg" alt="#" width="600" height="400">
+          <div class="desc"><p>Padang 2<br>Description text</p></div>
+          <div class="dropdown-content">
+            <img src="img/padang2.jpg" alt="#" width="800" height="400">
+            <div class="desc"><p>Title</p> <br> <p>Description and details</p></div>
+          </div>
+        </div>
+        <div class="item">
+          <img src="img/padang3.jpg" alt="#" width="600" height="400">
+          <div class="desc"><p>Padang 3<br>Description text</div>
+          <div class="dropdown-content">
+            <img src="img/padang3.jpg" alt="#" width="800" height="400">
+            <div class="desc"><p>Title</p> <br> <p>Description and details</p></div>
+          </div>
+        </div>
+        <div class="item">
+          <img src="img/drink1.jpg" alt="#" width="600" height="400">
+          <div class="desc"><p>Drink 1<br>Description text</p></div>
+          <div class="dropdown-content">
+            <img src="img/drink1.jpg" alt="#" width="800" height="500">
+            <div class="desc"><p>Title</p> <br> <p>Description and details</p></div>
+          </div>
+        </div>
+        <div class="item">
+          <img src="img/drink2.jpg" alt="#" width="600" height="400">
+          <div class="desc"><p>Drink 2<br>Description text</p></div>
+          <div class="dropdown-content">
+            <img src="img/drink2.jpg" alt="#" width="800" height="500">
+            <div class="desc"><p>Title</p> <br> <p>Description and details</p></div>
+          </div>
+        </div>
+        <div class="item">
+          <img src="img/drink3.jpg" alt="#" width="600" height="400">
+          <div class="desc"><p>Drink 3<br>Description text</p></div>
+          <div class="dropdown-content">
+            <img src="img/drink3.jpg" alt="#" width="800" height="500">
+            <div class="desc"><p>Title</p> <br> <p>Description and details</p></div>
+          </div>
+        </div>
+      </div>
+      </div>
+    </div>
+  </div>
+<!-- Menu -->
+      
+    
+    <!-- Our Team -->
+    <div class="pteam" id="Tim">
+      <div class="pteam-heading" id="Tim">
+          <p><u>Our Team</u></p>
+      </div>
+      <div class="cardteam">
+          <div class="card">
+              <div class="img">
+                <img src="img/tim/foto.jpg" alt="Eka Prasetyo">
+              </div>
+              <p class="name">Eka Prasetyo<hr></p>
+              <p class="motto"><q>Food, to me, is always about cooking and eating with those
+                               you love and care for.</q><hr></p>
+
+              <div class="sosmed">
+                  <a href="" target="_blank"><img src="img/icon/git.png"
+                          alt=""></a>
+                  <a href="" target="_blank"><img src="img/icon/tweet.png"
+                          alt=""></a>
+                  <a href="" target="_blank"><img src="img/icon/ig.png"
+                          alt=""></a>
+              </div>
+          </div>
+
+          <div class="card">
+              <div class="img"><img src="img/tim/foto.jpg" alt="Eka Prasetyo"></div>
+              <p class="name">Eka Prasetyo<hr></p>
+              <p class="motto"><q>The chief pleasure in eating does not consist in costly seasoning,
+                                  or exquisite flavor, but in yourself.</q><hr></p>
+
+              <div class="sosmed">
+                <a href="" target="_blank"><img src="img/icon/git.png"
+                        alt=""></a>
+                <a href="" target="_blank"><img src="img/icon/tweet.png"
+                        alt=""></a>
+                <a href="" target="_blank"><img src="img/icon/ig.png"
+                        alt=""></a>
+              </div>
+          </div>
+
+          <div class="card">
+            <div class="img">
+              <img src="img/tim/foto2.JPG" alt="Eka Prasetyo">
+            </div>
+            <p class="name">Eka Prasetyo<hr></p>
+            <p class="motto"><q>Laughter is brightest in the place where the food is.</q><hr></p>
+
+            <div class="sosmed">
+              <a href="" target="_blank"><img src="img/icon/git.png"
+                      alt=""></a>
+              <a href="" target="_blank"><img src="img/icon/tweet.png"
+                      alt=""></a>
+              <a href="" target="_blank"><img src="img/icon/ig.png"
+                      alt=""></a>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="img"><img src="img/tim/foto.jpg" alt="Eka Prasetya"></div>
+            <p class="name">Eka Prasetya<hr></p>
+            <p class="motto"><q>Good food ends with good talk.</q><hr></p>
+
+            <div class="sosmed">
+              <a href="" target="_blank"><img src="img/icon/git.png"
+                      alt=""></a>
+              <a href="" target="_blank"><img src="img/icon/tweet.png"
+                      alt=""></a>
+              <a href="" target="_blank"><img src="img/icon/ig.png"
+                      alt=""></a>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="img"><img src="img/tim/foto.jpg" alt="Eka Prasetyo"></div>
+            <p class="name">Eka Prasetyo<hr></p>
+            <p class="motto"><q>Eating good food is my favourite thing in the world. Nothing is more blissful.</q><hr></p>
+
+            <div class="sosmed">
+              <a href="" target="_blank"><img src="img/icon/git.png"
+                      alt=""></a>
+              <a href="" target="_blank"><img src="img/icon/tweet.png"
+                      alt=""></a>
+              <a href="" target="_blank"><img src="img/icon/ig.png"
+                      alt=""></a>
+            </div>
+          </div>
+      </div>
+    <!-- About US-->
+    <section id="contact-section">
+      <div class="container" id="AboutUs">
+           <div>
+                <h2>About Us</h2>
+                <br>
+                <p>This restaurant was founded by professional chefs who have one mission and one vision to improve their skills and want to provide the food they serve according to the available menu.</p>
+                <br>
+                <p>The menus available are traditional dishes from their own country combined with various regional specialties of the archipelago</p>
+                <br>
+                <p>The menus available are traditional dishes from their own country combined with various regional specialties of the archipelago. The chefs are very happy with creating the dishes that they cook with recipes from the archipelago in which they live in their country</p>
+
+            </div>
+      </div>
+    </section>
+    <!-- ini bagian contact-->
+    <section id="contact-section">
+      <div class="container" id="Contact">
+         <h2>Contact Us</h2>
+         <br>
+         <p>Email us and keep upto date with our latest news</p>
+        <div class="contact-form">
+          <div>
+            <i class="fa fa-map-marker"></i><span class="form-info"> FoodCourt Jl. Cooking 900 #4056</span><br>
+            <i class="fa fa-phone" > </i><span class="form-info">  081314611989</span><br>
+            <i class="fa fa-envelope"></i><span class="form-info">  info@foodcourt.indonesia.com</span>
+          </div>
+      <div>        
+        <form>
+          <input type="text" placeholder="Your Name" required>
+          <input type="text" placeholder="Last Name"><br>
+          <input type="Email" placeholder="Email" required><br>
+          <input type="text" placeholder="Subject of this message"><br>
+          <textarea name="message" placeholder="Message" rows="5" required></textarea><br>
+          <button class="submit" >Send Message</button> 
+        </form>   
+          </div>
+        </div>
+      </div>
+    </section>
+  <!-- ini bagian akhir contact -->
+  
+  <!-- ini bagian footer-->
+  <footer class="flex-list">
+    <div class="container">
+        <div class="footer-content" >
+         
+            <div class="footer-section layanan">
+                <h5>Service</h5>
+                <p>Ordering Services</p>
+                <p>Reservation Services</p>
+            </div>
+            <div class="footer-section social">
+                <h5>Sosial Media</h5>
+                <ul>
+                    <li class="fb"><span class="fa fa-facebook"></span><a href="#">Facebook</a></li>
+                    <li class="tw"><span class="fa fa-twitter"></span><a href="#">Twitter</a></li>
+                    <li class="ig"><span class="fa fa-instagram"></span><a href="#">Instagram</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="Copyright">&copy;2021 Food Court | Salatiga, Jawa Tengah</div>
+</footer>
+<!-- ini bagian akhir footer-->
+  </body>
+</html>
+

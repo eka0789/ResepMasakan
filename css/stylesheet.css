@@ -1,0 +1,589 @@
+/* INI UNTUK RESET CSS*/
+* {
+  padding: 0;
+  margin: 0;
+}
+a, li {
+  list-style: none;
+  text-decoration: none;
+}
+/*-----------------------------------------------------*/
+
+/* INI START DARI HEADER*/
+.welcome-page {
+  background-image: url('../img/herbs-spices-black_67618-925.jpg');
+  background-size: cover;
+  height: 50vw;
+}
+.header {
+  height: 5vw;
+  width: 100%;
+  background-color: rgba(50,50,50,0.7);
+  /*background-color: rgba(200,200,200,0.7);*/
+  position: fixed;
+  z-index: 10;
+}
+
+.menu-icon {
+  color: white;
+  float: right;
+  font-size: 25px;
+  padding: 21px 0;
+  display: none;
+}
+.header-container {
+  width: 85%;
+  margin: auto;
+}
+.header-container h1 {
+  font-size: 2vw;
+  line-height: 5vw;
+  float: left;
+  color: white;
+}
+.header-container ul {
+  float: right;
+  display: flex;
+  align-items: center;
+}
+.header-container li {
+  float: left;
+  font-size: 1.7vw;
+  padding-right: 2vw;
+}
+.header-container a {
+  color: white;
+  padding-bottom: 0.5vw;
+}
+.header-container a:hover {
+  border-bottom: 0.2vw solid rgb(200,200,200);
+}
+/* INI END DARI HEADER*/
+/* INI START DARI MAIN*/
+.landing-page-container {
+  text-align: center;
+  font-family: monospace;
+  width: 70%;
+  height: 50vw;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.landing-page {
+  background-color: rgba(30,30,30,0.5);
+}
+.landing-page-container h1 {
+  font-size: 6vw;
+  font-weight: bold;
+  color: white;
+  margin-bottom: 3vw;
+}
+.landing-page-container p {
+  width: 80%;
+  line-height: 3vw;
+  color: white;
+  font-size: 1.5vw;
+  margin-bottom: 2vw;
+}
+#book-a-table {
+  font-size: 1.5vw;
+  color: white;
+  padding: 1vw 3vw;
+  background-color: rgba(200,100,50,0.7);
+  border: 0.2vw solid transparent;
+}
+#book-a-table:hover {
+  background-color: rgba(200,100,50,1);
+}
+#book-a-table:active {
+  background-color: transparent;
+  border: 0.2vw solid rgb(100,100,100);
+}
+/* INI END DARI MAIN*/
+/* INI START DARI ARTIKEL 1*/
+.main-article {
+  width: 90%;
+  padding-bottom: 3vw;
+}
+.main-article-container {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main-article-left {
+  font-family: monospace;
+  width: 50vw;
+  padding-left: 15%;
+}
+.main-article-left h1 {
+  font-size: 7vw;
+  margin-bottom: 2vw;
+}
+.main-article-left p {
+  width: 25vw;
+  font-size: 1.5vw;
+  line-height: 2vw;
+}
+.main-article-right{
+  flex: auto;
+}
+
+.main-article-right img {
+  width: 90%;
+  filter: drop-shadow(#fecb89 10px 20px 20px);
+  transition: all 0.5s;
+}
+
+.main-article-container:hover .main-article-right img {
+  filter: drop-shadow(#fecb89 10px 20px 20px);
+  transform: rotate(10deg);
+}
+.person {
+  margin-top: 5vw;
+}
+.person img {
+  border-radius: 50%;
+  float: left;
+  width: 5vw;
+  margin-right: 2vw;
+}
+#person-name {
+  font-weight: bold;
+}
+#dish-img {
+  width: 40vw;
+  height: auto;
+}
+/* INI END DARI BAGIAN ARTIKEL 1 */
+/* CSS contact by agam */
+.container{
+  width: 90%;
+  margin: auto;
+  overflow: hidden;
+}
+
+/*Reservation Section CSS*/
+#reservation-section{
+  background: url(../img/bgcontact.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+  width: 100% ;
+  padding-bottom: 3%;
+}
+
+#reservation-section .container h2{
+  text-align: center;
+  text-decoration: underline;
+  font-style: initial;
+  text-underline-position: under;
+  color: rgba(200,100,50,1);
+  letter-spacing: 5px;   
+}
+
+#reservation-section .container form{
+  text-align:center ;
+}
+
+
+/*CSS Menu */
+
+.menu-rs{
+  width: 100%;
+  font-family: monospace; 
+}
+
+.menu-nav-wrapper ul {
+  list-style-type: none;
+  margin: auto;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  vertical-align: middle;
+  width: 100%;
+}
+
+.menu-nav-wrapper li {
+  float: left;
+  width: 33.33%;
+}
+
+.menu-nav-wrapper li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.menu-nav-wrapper li a:hover {
+  background-color: #111;
+}
+
+.menu-item-wrapper{
+  width: 90%;
+  margin: auto;
+  padding: 0;
+  vertical-align: middle;
+}
+
+.menu-item-heading{
+  text-align: center;
+  font-family: monospace;
+}
+
+.item {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 30%;
+}
+
+.item:hover {
+  border: 1px solid #777;
+  
+}
+
+.item img {
+  width: 100%;
+  height: auto;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  width: 30%;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.item:hover .dropdown-content {
+  display: block;
+}
+
+div.desc{
+  padding: 1vw;
+  text-align: center;
+  font-family: monospace;
+  text-align: center;
+}
+
+.menu-item-wrapper:after {
+  content: "";
+  display:table;
+  clear: both;
+}
+/*CSS Menu*/
+
+
+/*CSS Our Team*/
+.pteam {
+  padding: 0 40px;
+  color: #605f66;
+  text-align: center;
+}
+
+.pteam-heading {
+  margin: 20px 0px;
+  font-family: "SF Text";
+}
+
+.pteam-heading p:first-of-type {
+  font-size: 30px;
+  line-height: 50px;
+  font-weight: bold;
+}
+
+.pteam-heading p:last-of-type {
+  font-size: 25px;
+  font-weight: 300;
+  line-height: 45px;
+  letter-spacing: 0.15em;
+}
+
+.cardteam {
+  display: flex;
+}
+
+.card {
+  flex: auto;
+  border-radius: 10px;
+  margin: 15px;
+  width: 240px;
+  padding: 25px;
+  box-sizing: border-box;
+  background-color: whitesmoke;
+  transition: 300ms;
+}
+
+.card:hover {
+  transform: scale(00.5s);
+  box-shadow: 0px 0px 25px rgba(110, 95, 87, 0.2);
+  /* box-shadow: 0px 0px 25px rgba(100, 102, 93, 0.2);*/
+}
+
+.card p {
+  font-family: "SF Text";
+  color: #ffa931;
+}
+
+.card img {
+  border-radius: 50%;
+  border-style: dotted;
+}
+
+.name {
+  padding-top: 15px;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.motto {
+  color: #01000c;
+  font-size: 16px;
+  padding: 15px 0;
+  line-height: 20px;
+}
+
+.motto q {
+  color: #000000;
+}
+
+hr {
+  display: block;
+  border-style: groove;
+}
+
+.sosmed a {
+  display: inline-block;
+  margin: auto 0;
+  padding: 0 2.5px;
+}
+
+.sosmed img {
+  border-style: hidden;
+  width: 35px;
+}
+
+/* contact form css */
+#contact-section{
+  background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.9)),url(../img/bgcontact.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+  width: 100% ;
+  padding-bottom: 2%;
+}
+
+#contact-section .container h2{
+  text-align: center;
+   text-decoration: underline;
+    /* text-decoration-color:red; */
+    text-underline-position: under;
+    color: rgb(238, 235, 235);
+    letter-spacing: 2px;
+    
+}
+#contact-section .container p{
+  text-align: center; 
+  width: 70%; 
+  margin-left: auto;
+   margin-right: auto; 
+   padding-bottom: 3%;
+   color: #fff;
+   letter-spacing:3px;
+}
+
+.contact-form i.fa{
+  /* color: red; */
+  /* color: #fff; */
+  font-size: 22px; 
+  padding: 3%;
+  background-color: none;
+  border-radius: 80%;
+  margin: 2%;
+  /* border: 2px solid #fff; */
+  cursor: pointer;
+  border:2px solid rgb(190, 190, 190);
+  color: rgb(190, 190, 190);
+}
+
+.contact-form i.fa:hover{
+  cursor: pointer;
+  border:2px solid white;
+  color: white;
+}
+ 
+  .contact-form{
+    display: grid;
+    grid-template-columns: auto auto;
+     }
+  
+  .form-info{
+    font-size: 16px;
+    font-style: italic;
+    color: white;
+    letter-spacing: 2px;
+  }
+  input{
+    padding: 10px;
+    margin:10px;
+    width: 70%;
+    background-color:rgba(136, 133, 133, 0.5);
+    color: white;
+    border: none;
+    outline:none;
+  }
+
+  input::placeholder{
+    color: white;
+  }
+
+   textarea{
+  padding: 10px;
+  margin: 10px;     
+  width: 70%;
+  background-color:rgba(136, 133, 133, 0.5);
+  color: white;
+  border: none;
+  outline:none;
+ }
+ textarea::placeholder{
+   color: white;
+ }
+  .submit{
+  width: 40%;
+  background: none;
+  padding: 4px;
+  outline: none;
+   /* border: 1px solid #fff;
+  color: #fff; */
+  font-size: 13px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  height: 33px;
+  text-align: center;
+  cursor: pointer;
+  letter-spacing: 2px;
+  margin-left: 3%;
+  border:2px solid rgb(190, 190, 190);
+  color: rgb(190, 190, 190);
+ }
+
+ .submit:hover{
+       border: 1px solid #fff;
+  color: #fff;
+  cursor: pointer;
+ }
+
+    /* media queries */
+@media (max-width: 768px){
+
+#contact-section .contact-form{
+    display: block;
+    width: 100%;
+    text-align: center;
+  }
+  #contact-section .submit{
+
+    width: 60%;
+  }
+
+}
+/* akhir css contact */
+/* Awal Footer*/
+footer {
+  background: #414141;
+  color: #d3d3d3;
+  margin: auto;
+  padding: 30px 0 0 0px;
+  position: relative;
+}
+
+footer .footer-content {
+  height: auto;
+  display: flex;
+}
+
+footer .footer-content .footer-section {
+  flex: 1;
+  margin-left: 10px;
+}
+
+.footer-section h5 {
+  font-size: 20px;
+  color:rgba(200,100,50,1);
+}
+
+.tentang {
+  padding: 0 20px;
+}
+
+.tentang p {
+  line-height: 1.3;
+  padding-right: 20px;
+  color: #fff;
+}
+.Copyright {
+  background: #202020;
+  color: #fff;
+  height: 20%;
+  text-align: center;
+  bottom: 0;
+  left: 0;
+  padding: 30px;
+}
+
+.fa {
+  margin-right: 5px;
+}
+
+.social span {
+  margin: 5px;
+}
+
+.social a {
+  color: #fff;
+  margin-left: 5px;
+  color: #fff;
+}
+
+.social .fa-facebook {
+  margin-right: 11px;
+}
+
+.social .fa-instagram {
+  margin-right: 8px;
+}
+
+.social ul {
+  padding-left: 0px;
+}
+
+.fb:hover .fa-facebook {
+  color: #3b5998;
+}
+
+.tw:hover .fa-twitter {
+  color: #55acee;
+}
+
+.ig:hover .fa-instagram {
+  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+}
+
+.fa-facebook,
+.fa-twitter,
+.fa-instagram {
+  font-size: 18px !important;
+}
+/* footer */
